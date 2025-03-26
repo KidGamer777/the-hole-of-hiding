@@ -1,0 +1,72 @@
+# These are the libraries imported.
+import time
+import pygame 
+file = open("./liveandlearn.txt")
+counter = 0
+edgeOfTomorrow = file.readlines()
+
+# This is the code used to play the song's instrumental. 
+pygame.mixer.init()
+pygame.mixer.music.load('./assets/liveandlearn.mp3')
+pygame.mixer.music.play()
+def line(waitTime, lineText):
+    time.sleep(waitTime)
+    print(lineText)
+
+time.sleep(11)
+line(6.2, edgeOfTomorrow[0])
+line(4.8, edgeOfTomorrow[1])
+line(5.9, edgeOfTomorrow[2])
+line(6.1, edgeOfTomorrow[3])
+line(5.6, edgeOfTomorrow[4])
+line(5.6, edgeOfTomorrow[5])
+line(5.8, edgeOfTomorrow[6])
+line(8.4, edgeOfTomorrow[7])
+line(4.1, edgeOfTomorrow[8])
+line(2.6, edgeOfTomorrow[9])
+line(3.1, edgeOfTomorrow[10])
+line(4, edgeOfTomorrow[11])
+line(2, edgeOfTomorrow[12])
+line(3.5, edgeOfTomorrow[13])
+line(2.5, edgeOfTomorrow[14])
+line(2.5, edgeOfTomorrow[15])
+line(9.4, edgeOfTomorrow[16])
+line(5.7, edgeOfTomorrow[17])
+line(6.4, edgeOfTomorrow[18])
+line(5.6, edgeOfTomorrow[19])
+line(5.4, edgeOfTomorrow[20])
+line(5.9, edgeOfTomorrow[21])
+line(5.9, edgeOfTomorrow[22])
+line(2.8, edgeOfTomorrow[23])
+line(3.3, edgeOfTomorrow[24])
+line(2, edgeOfTomorrow[25])
+line(4.2, edgeOfTomorrow[26])
+line(2, edgeOfTomorrow[27])
+line(3.5, edgeOfTomorrow[28])
+line(2, edgeOfTomorrow[29])
+line(34.5, edgeOfTomorrow[30])
+line(5.6, edgeOfTomorrow[31])
+line(5.4, edgeOfTomorrow[32])
+line(2.8, edgeOfTomorrow[33])
+line(5, edgeOfTomorrow[34])
+line(2.1, edgeOfTomorrow[35])
+line(3.5, edgeOfTomorrow[36])
+line(1.4, edgeOfTomorrow[37])
+line(4.1, edgeOfTomorrow[38])
+line(2.1, edgeOfTomorrow[39])
+line(3.4, edgeOfTomorrow[40])
+line(1.5, edgeOfTomorrow[41])
+line(4.3, edgeOfTomorrow[42])
+line(2.2, edgeOfTomorrow[43])
+line(3.4, edgeOfTomorrow[44])
+line(1.3, edgeOfTomorrow[45])
+line(4.3, edgeOfTomorrow[46])
+line(2.1, edgeOfTomorrow[47])
+line(3.4, edgeOfTomorrow[48])
+line(1.4, edgeOfTomorrow[49])
+
+
+# for lyric in range(len(edgeOfTomorrow)):
+#     print(f"line(2, edgeOfTomorrow[{edgeOfTomorrow}])")
+# https://www.youtube.com/watch?v=z1BRZg0GG0A
+
